@@ -1,3 +1,3 @@
 console.log('%c HI', 'color: firebrick')
 
-let drp = document.querySelector('#breed-dropdown')
+let drp = document.getElementById('#breed-dropdown')
