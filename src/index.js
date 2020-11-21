@@ -39,8 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // call breed render
 
 
-    // attach event listener for li click to color change
+    // add event listener to breed container for li click
 
+        // set target style font color to blue
 
 
     // add event listener to drop down selection
