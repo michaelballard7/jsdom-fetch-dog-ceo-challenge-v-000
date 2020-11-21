@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // select image container
 
-    // select breed container 
+    // select breed container
 
     // set images url
 
@@ -13,10 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // set breeds state
 
-
     // fn: imgRender add images to dom from images state
 
-    // fn: breedRender add breeds to ul
+    // fn: breedRender add breeds to ul, param: breed state
+
+         // create breed li
+
+         // add id for color change
 
     // fetch imgaes from url
 
@@ -38,7 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+    // attach event listener for li click to color change
 
+
+
+    // add event listener to drop down selection
+
+        // filter breed state for select value and starts with
+
+        // call breed Render with filered state
 
 
 })
