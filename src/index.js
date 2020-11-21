@@ -1,5 +1,8 @@
-console.log('%c HI', 'color: firebrick')
 
-let drp = document.getElementById('#breed-dropdown')
+document.addEventListener('DOMContentLoaded', () => {
 
-console.log(drp.options)
+
+    let drp = document.querySelector('#breed-dropdown')
+
+
+})
