@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // attach event listener for li click to color change
 
-    
+
 
     // add event listener to drop down selection
 
