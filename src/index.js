@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let drp = document.querySelector('#breed-dropdown');
 
-    console.log(drp)
+    console.log(drp.value)
 
 
 })
