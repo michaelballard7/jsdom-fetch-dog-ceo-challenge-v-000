@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // add event listener to drop down selection
-    dropdown.addEventListener('onchange', () => {
+    dropdown.addEventListener('onchange', (breed) => {
 
         // get dropdown value
         let filterFor = dropdown.value
