@@ -116,7 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
             breedRender(filteredState);
 
             filteredState = [];
-
         }
 
 
