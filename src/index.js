@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(breedContainer.firstChild);
             // clear breed Container
             // while(breedContainer.firstChild){
-            //     parent.removeChild(firstChild)
+            //     parent.removeChild(breedContainer.firstChild)
             // }
 
             // get dropdown value
