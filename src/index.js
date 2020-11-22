@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             imagesState = data.message
             // call img render
 
+
         })
 
     // fetch breeds from url
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 setTimeout(() => console.log(breedsState), 3000)
     // fn: imgRender add images to dom from images state
-    function imgRender() {
+    function imgRender(imagesState) {
         imagesState.forEach( ( img ) => {
             console.log( img )
         })
