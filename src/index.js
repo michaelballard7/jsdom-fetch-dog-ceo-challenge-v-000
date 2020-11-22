@@ -31,16 +31,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         })
 
+        setTimeout(() => console.log(imagesState), 3000)
 
-    setTimeout(() => console.log(imagesState), 3000)
 
 
     // fetch breeds from url
-
+    fetch(breedUrl)
         //  convert json to obj
+        .then( res => res.json())
 
         // add breeds to state
-
+        .then( data => breedState = data)
         // call breed render
 
     // fn: imgRender add images to dom from images state
