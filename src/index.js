@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // fn: imgRender add images to dom from images state
     function imgRender(imagesState) {
         imagesState.forEach( ( img ) => {
-            console.log( img )
+            let thumbNail = document.createElement('img')
         })
     }
 
