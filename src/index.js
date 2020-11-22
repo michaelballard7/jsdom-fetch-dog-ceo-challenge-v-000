@@ -85,6 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    console.log(dropdown);
     // add event listener to drop down selection
     dropdown.addEventListener('onchange', () => {
 
