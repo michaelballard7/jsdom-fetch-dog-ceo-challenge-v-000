@@ -2,13 +2,17 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // select image container
-    let imageContainer = document.querySelector('#dog-image-container')
+    let imageContainer = document.querySelector('#dog-image-container');
 
     // select breed container
-    let breedContainer = document.querySelector('#dog-breeds')
-    // set images url
+    let breedContainer = document.querySelector('#dog-breeds');
 
+    // set images url
+    const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
+    
     // set breeds url
+    const breedUrl = 'https://dog.ceo/api/breeds/list/all'
+    
 
     // set images state
 
