@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let filterFor = dropdown.value
 
             // filter breed state for select value and starts with
-            // console.log( typeof breedsState)
+            console.log( typeof breedsState)
 
             // call breed Render with filered state
 
