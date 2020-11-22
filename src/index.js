@@ -85,8 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    console.log(dropdown.attributes);
+    
     // add event listener to drop down selection
+    dropdown.setAttribute('onchange', filterBreeds)
     dropdown.addEventListener('onchange', () => {
 
         // get dropdown value
