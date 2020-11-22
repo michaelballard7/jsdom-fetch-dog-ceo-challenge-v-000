@@ -2,9 +2,10 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // select image container
+    let imageContainer = document.querySelector('#dog-image-container')
 
     // select breed container
-
+    let breedContainer = document.querySelector('#dog-breeds')
     // set images url
 
     // set breeds url
