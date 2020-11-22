@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function breedRender(breedsState){
 
         for( const breed in breedsState) {
-            console.log(breedsState[breed])
+            console.log(breed)
         }
 
         // breedsState.forEach( ( breed ) => {
