@@ -87,6 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log( typeof breedsState)
 
         // call breed Render with filered state
+        
     }
 
     // add event listener to breed container for li click
@@ -101,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // add event listener to drop down selection
     dropdown.setAttribute('onchange', filterBreeds)
 
-    
+
 
 
 
