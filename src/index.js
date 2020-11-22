@@ -64,13 +64,14 @@ document.addEventListener('DOMContentLoaded', () => {
             let li = document.createElement('li')
             let text = document.createTextNode(breed)
             li.appendChild(text)
+            // add id for color change
+            li.setAttribute('id','color-trigger')
 
         }
 
         // breedsState.forEach( ( breed ) => {
         //
-        //     // add id for color change
-        //     li.setAttribute('id','color-trigger')
+        //
         //
         // })
 
