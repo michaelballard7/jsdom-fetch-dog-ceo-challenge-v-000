@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then( data =>  {
             
             breedsState = data.message
-
             // call breed render
             breedRender( breedsState );
 
