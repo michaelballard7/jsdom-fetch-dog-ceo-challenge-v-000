@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let breed = document.createElement('li')
             // add id for color change
             breed.setAttribute('id','color-trigger')
+            
         })
 
     }
@@ -66,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // set target style font color to blue
         if(e.target.classList[0] === 'color-trigger'){
-            e.target.style.color = 'blue'
+            e.target.style.color = 'blue';
         }
     })
 
