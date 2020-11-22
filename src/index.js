@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if(breed.startsWith(filterFor)){
                     console.log(breed);
-                    filteredState.push(breed)
+                    filteredState[breed]
                 }
             }
 
