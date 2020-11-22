@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let filteredState;
 
     // fetch imgaes from url
-    fetch(imgUrl)
+    fetch( imgUrl )
         // convert json to obj
         .then(res => res.json())
 
@@ -38,11 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
         })
 
     // fetch breeds from url
-    fetch(breedUrl)
+    fetch( breedUrl )
         //  convert json to obj
-        .then(res => res.json())
+        .then( res => res.json() )
         // add breeds to state
-        .then(data => {
+        .then( data => {
 
             breedsState = data.message;
 
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
 
     // fn: imgRender add images to dom from images state
-    function imgRender(imagesState) {
+    function imgRender( imagesState ) {
         imagesState.forEach((img) => {
             let thumbNail = document.createElement('img');
             thumbNail.setAttribute('src', img);
@@ -61,9 +61,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // fn: breedRender add breeds to ul, param: breed state
-    function breedRender(breedsState) {
+    function breedRender( breedsState ) {
 
-        for (const breed in breedsState) {
+        for ( const breed in breedsState ) {
 
             // create breed li
             let li = document.createElement('li');
@@ -81,10 +81,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // add event listener to breed container for li click
-    breedContainer.addEventListener('click', (e) => {
+    breedContainer.addEventListener( 'click' , (e) => {
 
         // set target style font color to blue
-        if (e.target.classList[0] === 'color-trigger') {
+        if ( e.target.classList[0] === 'color-trigger' ) {
             e.target.style.color = 'blue';
         }
     });
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         // clear breed Container
-        while (breedContainer.firstChild) {
+        while ( breedContainer.firstChild ) {
             breedContainer.removeChild(breedContainer.firstChild)
         }
 
@@ -106,26 +106,18 @@ document.addEventListener('DOMContentLoaded', () => {
         filteredState = {};
 
         // filter breed state for select value
-        for (breed in breedsState) {
+        for ( breed in breedsState ) {
 
-            if (breed.startsWith(filterFor)) {
+            if ( breed.startsWith(filterFor) ) {
                 filteredState[breed] = 0;
             }
         }
 
         // call breed Render with filered state
-        breedRender(filteredState);
+        breedRender( filteredState );
 
         // reset filtered state
         filteredState = {};
     }
 
-
-
-
-
-
-
-
-
-})
+});
