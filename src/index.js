@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
             
         })
 
-
-
+        
+    setTimeout(() => console.log(imagesState), 5000)
 
 
 
