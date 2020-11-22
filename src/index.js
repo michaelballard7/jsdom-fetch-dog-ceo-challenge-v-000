@@ -102,9 +102,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // get dropdown value
             let filterFor = dropdown.value
 
-            // filter breed state for select value 
+            // filter breed state for select value
             for( breed in breedsState){
-
                 if(breed.startsWith(filterFor)){
                     filteredState.push(breed)
                 }
