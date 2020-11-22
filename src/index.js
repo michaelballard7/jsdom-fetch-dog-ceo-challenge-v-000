@@ -50,16 +50,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // fn: breedRender add breeds to ul, param: breed state
     function breedRender(breedState){
-        
+
         breedState.forEach( ( breed ) => {
             // create breed li
             let breed = document.createElement('li')
         })
-    
+
         // add id for color change
     }
 
-        
+
 
 
     // add event listener to breed container for li click
