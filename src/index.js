@@ -104,8 +104,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // filter breed state for select value
             for( breed in breedsState){
+
                 if(breed.startsWith(filterFor)){
-                    filteredState.push(breed)
+                    console.log(breed);
+                    // filteredState.push(breed)
                 }
             }
 
