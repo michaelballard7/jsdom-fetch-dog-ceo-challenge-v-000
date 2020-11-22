@@ -60,6 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         console.log(breedsState)
 
+        for( const breed in breedsState) {
+            console.log(breed)
+        }
+
         // breedsState.forEach( ( breed ) => {
         //     // create breed li
         //     let li = document.createElement('li')
