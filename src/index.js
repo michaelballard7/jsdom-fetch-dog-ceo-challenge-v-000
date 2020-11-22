@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // add event listener to drop down selection
     dropdown.onchange = function filterBreeds( ){
 
-            console.log(breedContainer.children);
+            console.log(breedContainer.firstChild);
             // clear breed Container
             // while(breedContainer.firstChild){
             //     parent.removeChild(firstChild)
