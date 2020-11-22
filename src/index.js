@@ -106,7 +106,6 @@ document.addEventListener('DOMContentLoaded', () => {
             for( breed in breedsState){
 
                 if(breed.startsWith(filterFor)){
-                    console.log(breed);
                     filteredState[breed]
                 }
             }
