@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // set images url
     const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
-    
+
     // set breeds url
     const breedUrl = 'https://dog.ceo/api/breeds/list/all'
-    
+
 
     // set images state
 
