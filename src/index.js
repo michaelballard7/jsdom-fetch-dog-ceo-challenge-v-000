@@ -101,7 +101,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // add event listener to drop down selection
     dropdown.setAttribute('onchange', filterBreeds)
 
-    console.log(dropdown.attributes)
+    
+
+    
 
 
 
