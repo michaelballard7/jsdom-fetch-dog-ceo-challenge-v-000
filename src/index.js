@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // call breed render
 
 
-setTimeout(() => console.log(imagesState), 3000)
+setTimeout(() => console.log(breedState), 3000)
     // fn: imgRender add images to dom from images state
 
     // fn: breedRender add breeds to ul, param: breed state
