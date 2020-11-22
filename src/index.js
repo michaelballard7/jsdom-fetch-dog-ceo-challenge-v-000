@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             breed.setAttribute('colorTrigger','color')
         })
 
-        
+
     }
 
 
