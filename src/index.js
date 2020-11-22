@@ -88,7 +88,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // add event listener to drop down selection
-    dropdown.onchange =
+    dropdown.onchange = function filterBreeds( ){
+
+            // clear breed Container
+
+            // get dropdown value
+            let filterFor = dropdown.value
+
+            // filter breed state for select value and starts with
+            console.log( typeof breedsState)
+
+            // call breed Render with filered state
+
+        }
 
 
 
