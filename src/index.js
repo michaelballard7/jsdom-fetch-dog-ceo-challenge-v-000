@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // set breeds url
     const breedUrl = 'https://dog.ceo/api/breeds/list/all'
 
-
     // set images state
 
     // set breeds state
