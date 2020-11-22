@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // add breeds to state
         .then( data => breedState = data)
         // call breed render
+        breedRender(breedState);
 
     // fn: imgRender add images to dom from images state
     function imgRender(imagesState) {
