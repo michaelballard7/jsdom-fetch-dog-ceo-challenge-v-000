@@ -80,14 +80,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // clear breed Container
 
-        // call breed Render with filered state
 
-
+        
         // get dropdown value
         let filterFor = dropdown.value
 
         // filter breed state for select value and starts with
         console.log( typeof breedsState)
+
+        // call breed Render with filered state
     }
 
     // add event listener to breed container for li click
