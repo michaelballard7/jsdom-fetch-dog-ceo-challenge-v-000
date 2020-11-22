@@ -35,9 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => console.log(imagesState), 5000)
 
 
-
-
-
     // fetch breeds from url
 
         //  convert json to obj
