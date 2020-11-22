@@ -20,12 +20,22 @@ document.addEventListener('DOMContentLoaded', () => {
     let breedsState;
 
     // fetch imgaes from url
-
+    fetch(imgUrl)
         // convert json to obj
+        .then(res => res.json())
 
         // add images to state
+        .then(data => {
+            imagesState = data
+            // call img render
+            
+        })
 
-        // call img render
+
+
+
+
+
 
 
     // fetch breeds from url
