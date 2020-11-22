@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function breedRender(breedsState){
 
         for( const breed in breedsState) {
-            
+
             // create breed li
             let li = document.createElement('li')
             let text = document.createTextNode(breed)
