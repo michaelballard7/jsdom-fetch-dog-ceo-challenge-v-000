@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // get dropdown value
             let filterFor = dropdown.value
 
-            // reset filtered state
+            // set filtered state
             filteredState = {};
 
             // filter breed state for select value
