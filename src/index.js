@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let breedContainer = document.querySelector('#dog-breeds');
 
     // set images url
-    const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
+    const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
 
     // set breeds url
-    const breedUrl = 'https://dog.ceo/api/breeds/list/all'
+    const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 
     // set images state
     let imagesState;
@@ -32,9 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // add images to state
         .then(data => {
-            imagesState = data.message
+            imagesState = data.message;
             // call img render
-            imgRender(imagesState)
+            imgRender(imagesState);
         })
 
     // fetch breeds from url
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // add breeds to state
         .then(data => {
 
-            breedsState = data.message
+            breedsState = data.message;
 
             // call breed render
             breedRender(breedsState);
@@ -62,13 +62,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // fn: breedRender add breeds to ul, param: breed state
     function breedRender(breedsState) {
-        console.log(breedsState)
+        
         for (const breed in breedsState) {
 
             // create breed li
-            let li = document.createElement('li')
-            let text = document.createTextNode(breed)
-            li.appendChild(text)
+            let li = document.createElement('li');
+            let text = document.createTextNode(breed);
+            li.appendChild(text);
 
             // add id for color change
             li.setAttribute('class', 'color-trigger')
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // get dropdown value
-        let filterFor = dropdown.value
+        let filterFor = dropdown.value;
 
         // set filtered state
         filteredState = {};
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for (breed in breedsState) {
 
             if (breed.startsWith(filterFor)) {
-                filteredState[breed] = 0
+                filteredState[breed] = 0;
             }
         }
 
