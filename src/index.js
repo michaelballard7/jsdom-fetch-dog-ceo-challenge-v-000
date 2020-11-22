@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // add event listener to breed container for li click
     breedContainer.addEventListener('click', (e) => {
-        console.log('fired')
+        console.log(e.target)
         // set target style font color to blue
         if(e.target.classList[0] === 'color-trigger'){
             e.target.style.color = 'blue';
