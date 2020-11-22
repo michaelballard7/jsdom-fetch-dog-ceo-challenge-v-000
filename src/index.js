@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let breedsState;
 
     // set filteredState
-    let filteredState;
+    let filteredState = [];
 
     // fetch imgaes from url
     fetch(imgUrl)
