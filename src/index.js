@@ -60,11 +60,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         for( const breed in breedsState) {
             console.log(breed)
+            // create breed li
+            let li = document.createElement('li')
+            li.createTextNode(breed)
         }
 
         // breedsState.forEach( ( breed ) => {
-        //     // create breed li
-        //     let li = document.createElement('li')
+        //     
         //     // add id for color change
         //     li.setAttribute('id','color-trigger')
         //
