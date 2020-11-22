@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
 
 
-    setTimeout(() => console.log(imagesState), 5000)
+    setTimeout(() => console.log(imagesState), 3000)
 
 
     // fetch breeds from url
