@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     dropdown.setAttribute('onchange', filterBreeds)
 
     console.log(dropdown.attributes)
-    dropdown.addEventListener('onchange', () => {
+    function filterBreeds( ) {
 
         // get dropdown value
         let filterFor = dropdown.value
