@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
             li.setAttribute('id','color-trigger')
 
             // append to breedContainer
-            breedContainer.insertAdjacentElement('beforeend',li)
+            breedContainer.insertAdjacentElement('beforeend',li);
         }
     }
 
