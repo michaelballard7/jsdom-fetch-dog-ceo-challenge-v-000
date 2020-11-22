@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // call breed Render with filered state
             breedRender(filteredState);
 
-            filteredState = []
+            filteredState = [];
 
         }
 
