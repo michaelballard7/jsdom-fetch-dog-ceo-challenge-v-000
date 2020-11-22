@@ -14,17 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const breedUrl = 'https://dog.ceo/api/breeds/list/all'
 
     // set images state
-    let imagesState = []
+    let imagesState;
 
     // set breeds state
-
-    // fn: imgRender add images to dom from images state
-
-    // fn: breedRender add breeds to ul, param: breed state
-
-         // create breed li
-
-         // add id for color change
+    let breedsState;
 
     // fetch imgaes from url
 
@@ -42,6 +35,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // add breeds to state
 
         // call breed render
+
+    // fn: imgRender add images to dom from images state
+
+    // fn: breedRender add breeds to ul, param: breed state
+
+         // create breed li
+
+         // add id for color change
 
 
     // add event listener to breed container for li click
