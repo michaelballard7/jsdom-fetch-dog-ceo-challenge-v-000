@@ -43,6 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function imgRender(imagesState) {
         imagesState.forEach( ( img ) => {
             let thumbNail = document.createElement('img')
+            thumbNail.setAttribute('src',img)
+            imageContainer.appendChild(thumbNail)
         })
     }
 
