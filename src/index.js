@@ -36,9 +36,14 @@ document.addEventListener('DOMContentLoaded', () => {
         //  convert json to obj
         .then( res => res.json())
         // add breeds to state
-        .then( data =>  breedsState = data.message)
-        // call breed render
-        breedRender( breedsState );
+        .then( data =>  {
+            breedsState = data.message
+
+            // call breed render
+            breedRender( breedsState );
+
+        })
+
 
     // fn: imgRender add images to dom from images state
     function imgRender(imagesState) {
