@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // fn: breedRender add breeds to ul, param: breed state
     function breedRender(breedState){
 
-        breedState.forEach( ( breed ) => {
+        breedsState.forEach( ( breed ) => {
             // create breed li
             let li = document.createElement('li')
             // add id for color change
