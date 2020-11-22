@@ -57,8 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // fn: breedRender add breeds to ul, param: breed state
     function breedRender(breedsState){
+
         for( const breed in breedsState) {
-            console.log(breed)
+            console.log(breedsState[breed])
         }
 
         // breedsState.forEach( ( breed ) => {
