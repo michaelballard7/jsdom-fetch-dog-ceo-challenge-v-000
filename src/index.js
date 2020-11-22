@@ -40,30 +40,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // fetch breeds from url
     fetch(breedUrl)
         //  convert json to obj
-        .then( res => res.json())
+        .then(res => res.json())
         // add breeds to state
-        .then( data =>  {
+        .then(data => {
 
             breedsState = data.message
 
             // call breed render
-            breedRender( breedsState );
+            breedRender(breedsState);
 
         })
 
     // fn: imgRender add images to dom from images state
     function imgRender(imagesState) {
-        imagesState.forEach( ( img ) => {
+        imagesState.forEach((img) => {
             let thumbNail = document.createElement('img');
-            thumbNail.setAttribute('src',img);
+            thumbNail.setAttribute('src', img);
             imageContainer.appendChild(thumbNail);
         })
     }
 
     // fn: breedRender add breeds to ul, param: breed state
-    function breedRender(breedsState){
+    function breedRender(breedsState) {
         console.log(breedsState)
-        for( const breed in breedsState) {
+        for (const breed in breedsState) {
 
             // create breed li
             let li = document.createElement('li')
@@ -71,10 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
             li.appendChild(text)
 
             // add id for color change
-            li.setAttribute('class','color-trigger')
+            li.setAttribute('class', 'color-trigger')
 
             // append to breedContainer
-            breedContainer.insertAdjacentElement('beforeend',li);
+            breedContainer.insertAdjacentElement('beforeend', li);
         }
     }
 
@@ -84,41 +84,41 @@ document.addEventListener('DOMContentLoaded', () => {
     breedContainer.addEventListener('click', (e) => {
 
         // set target style font color to blue
-        if(e.target.classList[0] === 'color-trigger'){
+        if (e.target.classList[0] === 'color-trigger') {
             e.target.style.color = 'blue';
         }
     });
 
 
     // add event listener to drop down selection
-    dropdown.onchange = function filterBreeds( ){
+    dropdown.onchange = function filterBreeds() {
 
 
-            // clear breed Container
-            while(breedContainer.firstChild){
-                breedContainer.removeChild(breedContainer.firstChild)
-            }
-
-            // get dropdown value
-            let filterFor = dropdown.value
-
-            // set filtered state
-            filteredState = {};
-
-            // filter breed state for select value
-            for( breed in breedsState){
-
-                if(breed.startsWith(filterFor)){
-                    filteredState[breed] = 0
-                }
-            }
-
-            // call breed Render with filered state
-            breedRender(filteredState);
-
-            // reset filtered state
-            filteredState = {};
+        // clear breed Container
+        while (breedContainer.firstChild) {
+            breedContainer.removeChild(breedContainer.firstChild)
         }
+
+        // get dropdown value
+        let filterFor = dropdown.value
+
+        // set filtered state
+        filteredState = {};
+
+        // filter breed state for select value
+        for (breed in breedsState) {
+
+            if (breed.startsWith(filterFor)) {
+                filteredState[breed] = 0
+            }
+        }
+
+        // call breed Render with filered state
+        breedRender(filteredState);
+
+        // reset filtered state
+        filteredState = {};
+    }
 
 
 
