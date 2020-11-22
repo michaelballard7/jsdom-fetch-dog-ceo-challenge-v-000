@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             imagesState = data.message
             // call img render
+            imgRender(imagesState)
 
 
         })
@@ -40,8 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then( data => breedState = data)
         // call breed render
 
-
-setTimeout(() => console.log(breedsState), 3000)
     // fn: imgRender add images to dom from images state
     function imgRender(imagesState) {
         imagesState.forEach( ( img ) => {
