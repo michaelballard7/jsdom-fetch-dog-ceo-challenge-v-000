@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
-        
+
 
 
     // add event listener to drop down selection
