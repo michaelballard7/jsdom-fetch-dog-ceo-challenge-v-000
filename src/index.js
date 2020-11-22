@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then( data =>  {
 
             breedsState = data.message
-            
+
             // call breed render
             breedRender( breedsState );
 
@@ -60,13 +60,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         console.log(breedsState)
 
-        breedsState.forEach( ( breed ) => {
-            // create breed li
-            let li = document.createElement('li')
-            // add id for color change
-            li.setAttribute('id','color-trigger')
-
-        })
+        // breedsState.forEach( ( breed ) => {
+        //     // create breed li
+        //     let li = document.createElement('li')
+        //     // add id for color change
+        //     li.setAttribute('id','color-trigger')
+        //
+        // })
 
     }
 
