@@ -78,6 +78,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function filterBreeds( ) {
 
+        // clear breed Container
+
+        // call breed Render with filered state
+
+
         // get dropdown value
         let filterFor = dropdown.value
 
@@ -102,9 +107,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-        // clear breed Container
-
-        // call breed Render with filered state
 
 
 })
