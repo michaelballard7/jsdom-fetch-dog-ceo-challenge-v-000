@@ -92,10 +92,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let filterFor = dropdown.value
         
         // filter breed state for select value and starts with
-        
-        
+
+
     })
-        
+
 
         // clear breed Container
 
