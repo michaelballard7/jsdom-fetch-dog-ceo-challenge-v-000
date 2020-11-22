@@ -65,13 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // set target style font color to blue
         if(e.target.classList[0] === 'color-trigger'){
-
             e.target.style.color = 'blue'
         }
     })
-
-
-
 
     // add event listener to drop down selection
 
