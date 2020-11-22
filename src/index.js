@@ -102,11 +102,14 @@ document.addEventListener('DOMContentLoaded', () => {
             // get dropdown value
             let filterFor = dropdown.value
 
+            // reset filtered state
+            filteredState = {};
+
             // filter breed state for select value
             for( breed in breedsState){
 
                 if(breed.startsWith(filterFor)){
-                    filteredState[breed]=0
+                    filteredState0
                 }
             }
 
@@ -114,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
             breedRender(filteredState);
 
             // reset filtered state
-            filteredState = [];
+            filteredState = {};
         }
 
 
