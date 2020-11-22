@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         })
 
-
     // fetch breeds from url
     fetch(breedUrl)
         //  convert json to obj
