@@ -107,10 +107,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
             for( breed in breedsState){
 
-
+                if(breed.startsWith(filterFor)){
+                    filteredState.push(breed)
+                }
             }
 
             // call breed Render with filered state
+            breedRender(filteredState);
 
         }
 
