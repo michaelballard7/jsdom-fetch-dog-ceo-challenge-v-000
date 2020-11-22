@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // filter breed state for select value and starts with
         console.log( typeof breedsState)
-    })
+    }
 
     // add event listener to breed container for li click
     breedContainer.addEventListener('click', (e) => {
