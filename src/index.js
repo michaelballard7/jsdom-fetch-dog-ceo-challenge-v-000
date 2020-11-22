@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const breedUrl = 'https://dog.ceo/api/breeds/list/all'
 
     // set images state
+    let imagesState = []
 
     // set breeds state
 
