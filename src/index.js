@@ -67,7 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // add id for color change
             li.setAttribute('id','color-trigger')
-
         }
 
         // breedsState.forEach( ( breed ) => {
