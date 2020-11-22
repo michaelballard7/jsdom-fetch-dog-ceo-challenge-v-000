@@ -29,8 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
             imagesState = data.message
             // call img render
             imgRender(imagesState)
-
-
         })
 
     // fetch breeds from url
