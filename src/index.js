@@ -59,11 +59,12 @@ document.addEventListener('DOMContentLoaded', () => {
     function breedRender(breedsState){
 
         for( const breed in breedsState) {
-            console.log(breed)
+            
             // create breed li
             let li = document.createElement('li')
             let text = document.createTextNode(breed)
             li.appendChild(text)
+
             // add id for color change
             li.setAttribute('id','color-trigger')
 
