@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then( res => res.json())
         // add breeds to state
         .then( data =>  {
+            
             breedsState = data.message
 
             // call breed render
