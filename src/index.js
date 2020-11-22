@@ -80,8 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // clear breed Container
 
-
-        
         // get dropdown value
         let filterFor = dropdown.value
 
