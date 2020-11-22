@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // add images to state
         .then(data => {
-            imagesState = data
+            imagesState = data.message
             // call img render
 
         })
