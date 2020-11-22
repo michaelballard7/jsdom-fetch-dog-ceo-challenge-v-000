@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let breed = document.createElement('li')
             // add id for color change
             breed.setAttribute('id','color-trigger')
-            
+
         })
 
     }
