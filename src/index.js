@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             li.appendChild(text)
 
             // add id for color change
-            li.setAttribute('id','color-trigger')
+            li.setAttribute('class','color-trigger')
 
             // append to breedContainer
             breedContainer.insertAdjacentElement('beforeend',li);
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // add event listener to breed container for li click
     breedContainer.addEventListener('click', (e) => {
-        console.log(e.target.classList)
+
         // set target style font color to blue
         if(e.target.classList[0] === 'color-trigger'){
             e.target.style.color = 'blue';
