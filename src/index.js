@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function breedRender(breedsState){
 
         console.log(breedsState)
-            
+
         breedsState.forEach( ( breed ) => {
             // create breed li
             let li = document.createElement('li')
