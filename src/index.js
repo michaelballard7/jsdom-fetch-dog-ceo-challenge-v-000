@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // add event listener to breed container for li click
     breedContainer.addEventListener('click', (e) => {
-
+        console.log('fired')
         // set target style font color to blue
         if(e.target.classList[0] === 'color-trigger'){
             e.target.style.color = 'blue';
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // filter breed state for select value and starts with
 
         // clear breed Container
-        
+
         // call breed Render with filered state
 
 
