@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function filterBreeds( ) {
+    let filterBreeds = ( ) => {
 
         // clear breed Container
 
