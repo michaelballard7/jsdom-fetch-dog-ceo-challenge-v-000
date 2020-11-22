@@ -1,6 +1,9 @@
 // add load event
 document.addEventListener('DOMContentLoaded', () => {
 
+    // select dropdown
+    let dropdown = document.querySelector('#breed-dropdown')
+
     // select image container
     let imageContainer = document.querySelector('#dog-image-container');
 
@@ -83,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // add event listener to drop down selection
+
 
         // filter breed state for select value and starts with
 
