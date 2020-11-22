@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let li = document.createElement('li')
             let text = document.createTextNode(breed)
             li.appendChild(text)
-            
+
         }
 
         // breedsState.forEach( ( breed ) => {
