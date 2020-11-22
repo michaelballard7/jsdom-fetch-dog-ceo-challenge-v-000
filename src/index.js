@@ -48,6 +48,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         })
 
+    function filterBreeds( ){
+
+            // clear breed Container
+
+            // get dropdown value
+            let filterFor = dropdown.value
+
+            // filter breed state for select value and starts with
+            console.log( typeof breedsState)
+
+            // call breed Render with filered state
+
+        }
 
     // fn: imgRender add images to dom from images state
     function imgRender(imagesState) {
@@ -76,19 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    let filterBreeds = ( ) => {
 
-        // clear breed Container
-
-        // get dropdown value
-        let filterFor = dropdown.value
-
-        // filter breed state for select value and starts with
-        console.log( typeof breedsState)
-
-        // call breed Render with filered state
-
-    }
 
     // add event listener to breed container for li click
     breedContainer.addEventListener('click', (e) => {
