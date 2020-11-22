@@ -76,6 +76,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function filterBreeds( ) {
+
+        // get dropdown value
+        let filterFor = dropdown.value
+
+        // filter breed state for select value and starts with
+        console.log( typeof breedsState)
+    })
+
     // add event listener to breed container for li click
     breedContainer.addEventListener('click', (e) => {
 
@@ -90,14 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
     dropdown.setAttribute('onchange', filterBreeds)
 
     console.log(dropdown.attributes)
-    function filterBreeds( ) {
 
-        // get dropdown value
-        let filterFor = dropdown.value
-
-        // filter breed state for select value and starts with
-        console.log( typeof breedsState)
-    })
 
 
         // clear breed Container
