@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         breedState.forEach( ( breed ) => {
             // create breed li
-            let breed = document.createElement('li')
+            let li = document.createElement('li')
             // add id for color change
             breed.setAttribute('id','color-trigger')
 
