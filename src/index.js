@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // set breeds state
     let breedsState;
 
+    // set filteredState
+    let filteredState;
+
     // fetch imgaes from url
     fetch(imgUrl)
         // convert json to obj
@@ -101,6 +104,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // filter breed state for select value and starts with
             console.log( typeof breedsState)
+
+            for( breed in breedsState){
+
+
+            }
 
             // call breed Render with filered state
 
