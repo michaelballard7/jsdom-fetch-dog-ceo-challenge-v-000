@@ -28,10 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             imagesState = data
             // call img render
-            
+
         })
 
-        
+
     setTimeout(() => console.log(imagesState), 5000)
 
 
