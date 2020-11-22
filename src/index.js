@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         //  convert json to obj
         .then( res => res.json())
         // add breeds to state
-        .then( data => breedsState = data)
+        .then( data =>  console.log(data))
         // call breed render
         breedRender(breedsState);
 
